@@ -28,6 +28,7 @@ h1,h2,h4{
 p{
 	font-size: 15px;
 	line-height: 21px;
+	text-indent: 0;
 }
 .btn{
 	transition: all 00ms easy-in-out;
@@ -117,6 +118,7 @@ p{
 .services{
 	padding: 80px 0 80px;
 	text-align: center;
+	background-color: #f3f3f3;
 }
 .services h2,h4{
 	color: #4c4c4c;
@@ -128,6 +130,9 @@ p{
 	color: #737373;
 	font-size: 14px;
 	padding-bottom:14px;
+	text-indent:0;
+	text-align: justify;
+    text-justify: inter-word;
 }
 
 .services i{
@@ -138,13 +143,48 @@ p{
 	border-radius: 50%;
 	background-color:#6699cc;
 	color: #fff;
+	text-align: center;
 }
 @media(max-width:768px){
 	.services{
 		padding: 30px;
 	}
 }
+.objective{
+	padding: 80px 0 80px;
+	text-align: center;
 
+}
+.objective h2,h4{
+	color: #4c4c4c;
+	margin: 20px 0 20px;
+
+}
+
+.objective p{
+	color: #737373;
+	font-size: 14px;
+	padding-bottom:14px;
+	text-indent:0;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.objective i{
+	height: 80px;
+	width: 80px;
+	font-size: 30px;
+	padding: 25px 20px;
+	border-radius: 50%;
+	background-color:#6699cc;
+	color: #fff;
+	text-align: center;
+}
+@media(max-width:768px){
+	.objective{
+		padding: 30px;
+	}
+}
 /*Pricing*/
 
 .pricing{
@@ -222,6 +262,32 @@ p{
 .team a:hover i{
 	background-color: #709963; 
 }
+.product{
+	padding: 50px 0 80px;
+	text-align: center;
+	color: #fff;
+	
+}
+.product h2{
+	color: #5e5e5e;
+
+}
+.product p {
+	padding-bottom: 40px;
+}
+.product img{
+	width: 350px;
+	
+	opacity: 0.6;
+	cursor: pointer;
+	margin: 10px ;
+	transition: all 500ms ease-in-out;
+	padding-right: 100px;
+}
+
+.product li:hover img{
+	opacity: 1;
+}
 
 /*Clients*/
 
@@ -229,7 +295,7 @@ p{
 	padding: 50px 0 80px;
 	text-align: center;
 	color: #fff;
-	background-color: #3399ff;
+	background-color:#f3f3f3; 
 }
 .client h2{
 	color: #5e5e5e;
@@ -251,6 +317,7 @@ p{
 .client li:hover img{
 	opacity: 1;
 }
+
 .contact{
 	padding:50px 0 80px;
 	text-align: center;
